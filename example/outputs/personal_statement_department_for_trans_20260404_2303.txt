@@ -1,0 +1,20 @@
+Personal Statement
+Senior Data Scientist — Department for Transport Analytics (DfTA)
+Word count: 474/500
+============================================================
+
+As a Senior Data Scientist at Department for Transport Analytics (DfTA), I have a proven track record of using data science techniques to solve operational problems and drive real-world impact.
+
+One notable example is my work on the road casualty risk model at West Yorkshire CA, where I reframed the problem from prioritizing raw casualty counts to focusing on risk per vehicle kilometre. By building a gradient boosting model incorporating road geometry, traffic flow, and historical casualty data, I deployed it as a ranked corridor list that the safety team now uses to prioritize infrastructure work. This model has directly influenced three infrastructure projects in the last 18 months.
+
+I've also successfully developed and deployed machine learning models to address operational challenges. At Lloyds, I deployed an XGBoost fraud scoring model into production via a FastAPI REST API on AWS ECS, processing real-time transactions at scale. Additionally, I introduced version control on GitHub and peer review as part of my data pipeline structure, ensuring that another analyst could pick up the pipeline without asking me.
+
+As someone who prioritizes ethics in analytical work, I've completed internal ethics reviews for model deployments at Lloyds, documenting the model's intended use, assessing potential disparate impact across protected characteristics, and producing a fairness report reviewed by the risk team before sign-off. At ONS, I worked within the National Statistician's Data Ethics framework, ensuring statistical disclosure control on published outputs and documenting methodology so results could be scrutinized.
+
+I've also had success working with large datasets, including geospatial data. At Lloyds, the fraud pipeline processed over 50 million daily transactions using PySpark on AWS EMR, while at West Yorkshire CA I worked with GPS trace data from thousands of vehicles combined with road network geometry – joining spatial datasets required careful use of GeoPandas and spatial indexing to keep processing times reasonable.
+
+Communicating complex analytical findings to non-technical stakeholders is also a strength of mine. At West Yorkshire CA, I presented the road safety model to elected members, focusing entirely on outcomes rather than methodology and using maps instead of charts whenever possible. This led directly to two sites being added to the capital programme.
+
+As someone who values professional development and sharing best practices with colleagues, I've presented at PyData Leeds 2024 on reproducible pipelines for public sector data, which came out of the GitHub and testing practices I introduced at my team. I also volunteer as a data mentor with Code First Girls, running monthly sessions on Python and data science fundamentals for career changers. Within my current team, I've mentored two junior analysts – one has since led her first independent project – and written internal Python best practice guidance that was shared across the analytics function.
+
+Throughout my career, I've consistently applied these skills to drive real-world impact and promote professional development within my teams.

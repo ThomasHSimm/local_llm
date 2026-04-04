@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "created": "2026-04-04T23:03:20.495250",
+    "job_title": "Senior Data Scientist",
+    "organisation": "Department for Transport Analytics (DfTA)",
+    "word_count": 474,
+    "word_limit": 500
+  },
+  "parsed_job": {
+    "job_title": "Senior Data Scientist",
+    "organisation": "Department for Transport Analytics (DfTA)",
+    "word_limit": null,
+    "role_summary": "lead the development of predictive and risk models that support transport safety and enforcement decisions across Great Britain",
+    "sift_criteria": [
+      "Experience of using data science techniques to solve operational problems",
+      "Ability to ensure that analysis achieves real-world impact",
+      "Promoting professional development and sharing best practice with colleagues",
+      "Applying ethics frameworks and data protection principles in analytical work"
+    ],
+    "required_experience": [
+      "Developing and deploying machine learning models to solve operational problems",
+      "Building reproducible data pipelines using Python or similar languages",
+      "Working with large or complex datasets, including geospatial or time-series data",
+      "Communicating analytical findings to non-technical stakeholders"
+    ],
+    "technical_skills": [
+      "Applied Maths and Statistical Methods",
+      "Programming and Build",
+      "Data Engineering",
+      "Data Science Innovation"
+    ],
+    "behaviours": [
+      "Delivering at Pace",
+      "Working Together"
+    ]
+  },
+  "parsed_cv": {
+    "name": "Sarah Chen",
+    "current_role": "Senior Data Analyst \u2014 West Yorkshire Combined Authority",
+    "current_employer": "West Yorkshire Combined Authority",
+    "technical_skills": [
+      "Python (6 years)",
+      "SQL",
+      "R (basic)",
+      "scikit-learn",
+      "XGBoost",
+      "LightGBM",
+      "statsmodels",
+      "pandas",
+      "NumPy",
+      "PySpark",
+      "AWS (EMR, ECS, S3)",
+      "Docker",
+      "Git/GitHub",
+      "pytest",
+      "FastAPI",
+      "Plotly Dash",
+      "matplotlib",
+      "seaborn"
+    ],
+    "domains": [
+      "Data Science",
+      "Government",
+      "Financial Services",
+      "Transport Planning",
+      "Road Safety Analytics"
+    ],
+    "qualifications": [
+      "MSc Data Science \u2014 University of Leeds (2017\u20132018)",
+      "Dissertation: Predicting road casualty severity using ensemble methods and imbalanced learning techniques.",
+      "BSc Mathematics \u2014 University of Sheffield (2014\u20132017)",
+      "First Class Honours."
+    ],
+    "key_achievements": [
+      "Built a Python pipeline to process and clean GPS and incident data from multiple local authority sources, reducing manual data preparation from 3 days to 2 hours.",
+      "Developed a road casualty risk model using gradient boosting (scikit-learn) that identified high-risk corridors, used by the safety team to prioritise interventions.",
+      "Presented model findings to senior leadership and elected members, adapting technical content for non-specialist audiences.",
+      "Set up the team's first version-controlled codebase on GitHub, introduced peer review and basic unit testing with pytest.",
+      "Mentored two junior analysts in Python and data visualisation."
+    ]
+  },
+  "gap_analysis": {
+    "strong_matches": [
+      {
+        "requirement": "Experience of using data science techniques to solve operational problems",
+        "evidence": "Built a Python pipeline to process and clean GPS and incident data from multiple local authority sources, reducing manual data preparation from 3 days to 2 hours."
+      },
+      {
+        "requirement": "Ability to ensure that analysis achieves real-world impact",
+        "evidence": "Presented model findings to senior leadership and elected members, adapting technical content for non-specialist audiences."
+      },
+      {
+        "requirement": "Promoting professional development and sharing best practice with colleagues",
+        "evidence": "Mentored two junior analysts in Python and data visualisation."
+      }
+    ],
+    "partial_matches": [
+      {
+        "requirement": "Developing and deploying machine learning models to solve operational problems",
+        "gap": "No specific evidence of deploying models, but experience with XGBoost and FastAPI"
+      },
+      {
+        "requirement": "Building reproducible data pipelines using Python or similar languages",
+        "gap": "While pipeline setup is mentioned, no explicit focus on reproducibility"
+      },
+      {
+        "requirement": "Applying ethics frameworks and data protection principles in analytical work",
+        "gap": "Internal ethics review for two model deployments, but no clear evidence of applying frameworks"
+      }
+    ],
+    "missing": [
+      {
+        "requirement": "Working with large or complex datasets, including geospatial or time-series data",
+        "why_it_matters": "Experience is limited to processing 50M+ daily transactions, which may not be considered large or complex by some standards"
+      },
+      {
+        "requirement": "Communicating analytical findings to non-technical stakeholders",
+        "why_it_matters": "While experience with presenting to senior leadership and elected members, no clear evidence of communicating with broader stakeholder groups"
+      }
+    ],
+    "fit_summary": "The candidate has strong matches for operational problem-solving, real-world impact, and professional development, but partial matches for deploying machine learning models, building reproducible pipelines, and applying ethics frameworks. There are also genuine gaps in experience with large datasets and communicating findings to non-technical stakeholders.",
+    "priority_gaps": [
+      "Developing and deploying machine learning models to solve operational problems",
+      "Building reproducible data pipelines using Python or similar languages",
+      "Applying ethics frameworks and data protection principles in analytical work"
+    ],
+    "overall_fit_score": 56
+  },
+  "questions": [
+    {
+      "gap": "Developing and deploying machine learning models to solve operational problems",
+      "question": "Can you walk me through a specific project where you developed, trained, and deployed a machine learning model to address an operational problem?",
+      "why": "This question is trying to surface evidence of the candidate's ability to deploy machine learning models, which is a priority gap.",
+      "follow_up": "If the answer is vague, can you provide more details about the project, such as the type of data used and any challenges encountered?"
+    },
+    {
+      "gap": "Building reproducible data pipelines using Python or similar languages",
+      "question": "How do you ensure that your data pipelines are reproducible and consistent across different environments?",
+      "why": "This question is trying to surface evidence of the candidate's ability to build reproducible pipelines, which is a priority gap.",
+      "follow-up": "If the answer is vague, can you provide more details about your pipeline setup and how you handle version control?"
+    },
+    {
+      "gap": "Applying ethics frameworks and data protection principles in analytical work",
+      "question": "Can you describe a situation where you had to consider ethical implications of your analysis or model deployment?",
+      "why": "This question is trying to surface evidence of the candidate's ability to apply ethics frameworks, which is a priority gap.",
+      "follow-up": "If the answer is vague, can you provide more details about the context and how you ensured that your work was ethical?"
+    },
+    {
+      "gap": "Working with large or complex datasets, including geospatial or time-series data",
+      "question": "How do you handle working with datasets that are larger than 100M rows or have unique characteristics such as geospatial or time-series data?",
+      "why": "This question is trying to surface evidence of the candidate's experience with large and complex datasets, which is a genuine gap.",
+      "follow-up": "If the answer is vague, can you provide more details about your approach to handling these types of datasets?"
+    },
+    {
+      "gap": "Communicating analytical findings to non-technical stakeholders",
+      "question": "Can you describe a situation where you had to present complex analytical findings to someone who didn't have a technical background?",
+      "why": "This question is trying to surface evidence of the candidate's ability to communicate with non-technical stakeholders, which is a genuine gap.",
+      "follow-up": "If the answer is vague, can you provide more details about your approach to communicating complex information?"
+    },
+    {
+      "gap": "Promoting professional development and sharing best practice with colleagues",
+      "question": "Can you give an example of how you've helped or been helped by a colleague in terms of professional development or sharing best practices?",
+      "why": "This question is trying to surface evidence of the candidate's ability to promote professional development, which is a strong match.",
+      "follow-up": "If the answer is vague, can you provide more details about the specific project or initiative?"
+    }
+  ],
+  "evidence": [
+    {
+      "gap": "Developing and deploying machine learning models to solve operational problems",
+      "question": "Can you walk me through a specific project where you developed, trained, and deployed a machine learning model to address an operational problem?",
+      "answer": "The clearest example is the road casualty risk model at West Yorkshire CA.\nThe problem was that interventions were being prioritised on raw casualty counts,\nwhich unfairly favoured busy roads. I reframed it as risk per vehicle kilometre,\nbuilt a gradient boosting model using scikit-learn incorporating road geometry,\ntraffic flow and historical casualty data, and deployed it as a ranked corridor\nlist the safety team now uses to prioritise infrastructure work. The model has\ndirectly influenced three infrastructure projects in the last 18 months.\nAt Lloyds I deployed an XGBoost fraud scoring model into production via a FastAPI\nREST API on AWS ECS, processing real-time transactions at scale."
+    },
+    {
+      "gap": "Building reproducible data pipelines using Python or similar languages",
+      "question": "How do you ensure that your data pipelines are reproducible and consistent across different environments?",
+      "answer": "At West Yorkshire CA I introduced version control on GitHub and peer review as\nthe team had no existing practices. I set up a modular pipeline structure with\nclear separation between ingestion, processing and output, wrote docstrings and\na README for each module, and added pytest unit tests covering the key\ntransformation steps. The goal was that another analyst could pick it up without\nasking me. At ONS I also wrote internal guidance on Python best practices that\nwas adopted across the team \u2014 reproducibility was a core principle given the\npublished statistics context."
+    },
+    {
+      "gap": "Applying ethics frameworks and data protection principles in analytical work",
+      "question": "Can you describe a situation where you had to consider ethical implications of your analysis or model deployment?",
+      "answer": "At Lloyds I completed two internal ethics reviews for model deployments. This\ninvolved documenting the model's intended use, assessing potential for disparate\nimpact across protected characteristics, running bias tests across demographic\nsubgroups, and producing a fairness report reviewed by the risk team before\nsign-off. At ONS I worked within the National Statistician's Data Ethics\nframework \u2014 in practice this meant ensuring statistical disclosure control on\npublished outputs and documenting methodology so results could be scrutinised."
+    },
+    {
+      "gap": "Working with large or complex datasets, including geospatial or time-series data",
+      "question": "How do you handle working with datasets that are larger than 100M rows or have unique characteristics such as geospatial or time-series data?",
+      "answer": "At Lloyds the fraud pipeline processed over 50 million daily transactions using\nPySpark on AWS EMR. The main challenges were handling late-arriving data,\nmanaging schema drift across upstream feeds, and keeping inference latency low\nenough for real-time scoring. I used windowing functions for time-series feature\nengineering and partitioned the data by date to keep individual job sizes\nmanageable. At West Yorkshire CA I worked with GPS trace data from thousands of\nvehicles combined with road network geometry \u2014 joining spatial datasets required\ncareful use of GeoPandas and spatial indexing to keep processing times reasonable."
+    },
+    {
+      "gap": "Communicating analytical findings to non-technical stakeholders",
+      "question": "Can you describe a situation where you had to present complex analytical findings to someone who didn't have a technical background?",
+      "answer": "The most direct example is presenting the road safety model to elected members\nat West Yorkshire CA \u2014 people with no data science background who needed to\nunderstand why the model's priorities differed from their intuitions based on\nlocal knowledge. I focused entirely on outcomes rather than methodology:\nhere are the corridors ranked by modelled risk, here is what happened at the\ntop-ranked ones historically, here is what intervention would cost versus the\nestimated safety benefit. I avoided model internals entirely and used maps rather\nthan charts wherever possible. The presentation led directly to two sites being\nadded to the capital programme."
+    },
+    {
+      "gap": "Promoting professional development and sharing best practice with colleagues",
+      "question": "Can you give an example of how you've helped or been helped by a colleague in terms of professional development or sharing best practices?",
+      "answer": "I presented at PyData Leeds 2024 on reproducible pipelines for public sector\ndata, which came out of the GitHub and testing practices I introduced at my\nteam. I also volunteer as a data mentor with Code First Girls, running monthly\nsessions on Python and data science fundamentals for career changers. Within\nmy current team I mentor two junior analysts \u2014 one has since led her first\nindependent project. I also wrote internal Python best practice guidance at ONS\nthat was shared across the analytics function."
+    }
+  ],
+  "draft": "As a Senior Data Scientist at Department for Transport Analytics (DfTA), I have a proven track record of using data science techniques to solve operational problems and drive real-world impact.\n\nOne notable example is my work on the road casualty risk model at West Yorkshire CA, where I reframed the problem from prioritizing raw casualty counts to focusing on risk per vehicle kilometre. By building a gradient boosting model incorporating road geometry, traffic flow, and historical casualty data, I deployed it as a ranked corridor list that the safety team now uses to prioritize infrastructure work. This model has directly influenced three infrastructure projects in the last 18 months.\n\nI've also successfully developed and deployed machine learning models to address operational challenges. At Lloyds, I deployed an XGBoost fraud scoring model into production via a FastAPI REST API on AWS ECS, processing real-time transactions at scale. Additionally, I introduced version control on GitHub and peer review as part of my data pipeline structure, ensuring that another analyst could pick up the pipeline without asking me.\n\nAs someone who prioritizes ethics in analytical work, I've completed internal ethics reviews for model deployments at Lloyds, documenting the model's intended use, assessing potential disparate impact across protected characteristics, and producing a fairness report reviewed by the risk team before sign-off. At ONS, I worked within the National Statistician's Data Ethics framework, ensuring statistical disclosure control on published outputs and documenting methodology so results could be scrutinized.\n\nI've also had success working with large datasets, including geospatial data. At Lloyds, the fraud pipeline processed over 50 million daily transactions using PySpark on AWS EMR, while at West Yorkshire CA I worked with GPS trace data from thousands of vehicles combined with road network geometry \u2013 joining spatial datasets required careful use of GeoPandas and spatial indexing to keep processing times reasonable.\n\nCommunicating complex analytical findings to non-technical stakeholders is also a strength of mine. At West Yorkshire CA, I presented the road safety model to elected members, focusing entirely on outcomes rather than methodology and using maps instead of charts whenever possible. This led directly to two sites being added to the capital programme.\n\nAs someone who values professional development and sharing best practices with colleagues, I've presented at PyData Leeds 2024 on reproducible pipelines for public sector data, which came out of the GitHub and testing practices I introduced at my team. I also volunteer as a data mentor with Code First Girls, running monthly sessions on Python and data science fundamentals for career changers. Within my current team, I've mentored two junior analysts \u2013 one has since led her first independent project \u2013 and written internal Python best practice guidance that was shared across the analytics function.\n\nThroughout my career, I've consistently applied these skills to drive real-world impact and promote professional development within my teams.",
+  "word_limit": 500
+}

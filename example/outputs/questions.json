@@ -1,0 +1,32 @@
+[
+  {
+    "gap": "Developing and deploying machine learning models to solve operational problems",
+    "question": "Can you walk me through a specific project where you developed, deployed, and evaluated the performance of a machine learning model to address an operational problem?",
+    "why": "This question is trying to surface evidence of deploying models, which is a key requirement. The follow-up would ask for specifics on metrics used to evaluate model performance."
+  },
+  {
+    "gap": "Building reproducible data pipelines using Python or similar languages",
+    "question": "How do you ensure that your data pipelines are reproducible and can be easily maintained by others, especially in the event of changes to the pipeline or team members?",
+    "why": "This question is trying to surface evidence of focusing on reproducibility. The follow-up would ask for specific examples or tools used."
+  },
+  {
+    "gap": "Applying ethics frameworks and data protection principles in analytical work",
+    "question": "Can you describe a situation where you had to apply an ethics framework or data protection principle during your analysis, and how you ensured that your work was compliant?",
+    "why": "This question is trying to surface evidence of applying ethics frameworks. The follow-up would ask for specifics on the framework used."
+  },
+  {
+    "gap": "Working with large or complex datasets, including geospatial or time-series data",
+    "question": "How do you handle large or complex datasets, such as those containing millions of rows or multiple variables, and what tools or techniques do you use to manage them?",
+    "why": "This question is trying to surface evidence of experience with large datasets. The follow-up would ask for specifics on data handling strategies."
+  },
+  {
+    "gap": "Communicating analytical findings to non-technical stakeholders",
+    "question": "Can you give an example of a time when you had to communicate complex analytical findings to someone who didn't have a technical background, and how you approached the communication?",
+    "why": "This question is trying to surface evidence of communicating with non-technical stakeholders. The follow-up would ask for specifics on the communication strategy."
+  },
+  {
+    "gap": "Promoting professional development and sharing best practice with colleagues",
+    "question": "Can you describe a recent project or initiative where you shared your knowledge or expertise with colleagues, and how it benefited the team?",
+    "why": "This question is trying to surface evidence of promoting professional development. The follow-up would ask for specifics on the impact."
+  }
+]

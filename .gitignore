@@ -17,16 +17,20 @@ conda-env/
 .vscode/
 .idea/
 
-# App config and data — keep out of repo
+# App config and data — personal, never commit
 config/
 data/
-outputs/
-
-# Job assistant — personal data, never commit
 inputs/
 answers.toml
 session_*.json
 personal_statement_*.txt
+
+# General outputs — keep out of repo
+outputs/
+
+# Example outputs — commit these as part of the demo
+!example/outputs/
+!example/outputs/**
 
 # Jupyter
 .ipynb_checkpoints/
