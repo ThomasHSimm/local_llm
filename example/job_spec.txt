@@ -1,0 +1,100 @@
+Senior Data Scientist
+Department for Transport Analytics (DfTA)
+Reference number: DfTA-2026-047
+
+Apply before 11:55 pm on Friday 30th April 2026
+
+Salary: £46,000
+Plus Government Digital and Data Profession allowance up to £12,000.
+Civil Service Pension with employer contribution of 28.97%
+
+Job grade: Senior Executive Officer
+Contract type: Permanent
+Business area: DfTA - Data and Intelligence Directorate
+Working pattern: Flexible working, Full-time, Part-time
+Number of jobs available: 1
+
+Location: Birmingham, Leeds or Bristol (hybrid, minimum 60% office)
+
+================================================================================
+JOB SUMMARY
+================================================================================
+
+The Data and Intelligence Directorate is looking for a Senior Data Scientist to
+lead the development of predictive and risk models that support transport safety
+and enforcement decisions across Great Britain.
+
+You will design, build and maintain analytical models that help allocate frontline
+resources more effectively, identify emerging risks, and drive evidence-based
+policy. You will work closely with operational teams, policy colleagues and
+external partners to ensure your analysis has real-world impact.
+
+================================================================================
+JOB DESCRIPTION
+================================================================================
+
+Your responsibilities will include:
+
+- Developing and maintaining predictive models for transport safety risk assessment.
+- Using machine learning and statistical methods to identify patterns in large
+  operational datasets.
+- Designing and implementing data pipelines to support reproducible analysis.
+- Presenting findings and recommendations to senior leaders and operational staff.
+- Championing best practice in data science across the directorate.
+- Mentoring junior analysts and data scientists.
+- Evaluating the performance of models and improving them iteratively.
+- Ensuring ethical and responsible use of data throughout your work.
+- Collaborating with engineers and analysts to deploy models into production.
+
+================================================================================
+PERSON SPECIFICATION — REQUIRED EXPERIENCE
+================================================================================
+
+- Developing and deploying machine learning models to solve operational problems.
+- Building reproducible data pipelines using Python or similar languages.
+- Working with large or complex datasets, including geospatial or time-series data.
+- Communicating analytical findings to non-technical stakeholders.
+- Experience of cloud platforms (AWS, Azure, GCP or equivalent).
+- Promoting professional development and sharing best practice with colleagues.
+- Applying ethics frameworks and data protection principles in analytical work.
+- Strong programming skills in Python, including data science libraries.
+- Experience with version control, testing, and collaborative development practices.
+- Working in Agile or iterative delivery environments.
+
+================================================================================
+BEHAVIOURS ASSESSED
+================================================================================
+
+At interview:
+- Delivering at Pace
+- Working Together
+
+================================================================================
+TECHNICAL SKILLS ASSESSED
+================================================================================
+
+At sift (CV and personal statement, 500 words):
+1. Experience of using data science techniques to solve operational problems
+2. Ability to ensure that analysis achieves real-world impact
+
+At interview:
+- Applied Maths and Statistical Methods
+- Programming and Build
+- Data Engineering
+- Data Science Innovation
+
+================================================================================
+BENEFITS
+================================================================================
+
+- Employer pension contribution of 28.97%
+- 25 days annual leave rising to 30 days
+- Flexible and hybrid working
+- Civil Service Learning and Development
+- Employee Assistance Programme
+
+================================================================================
+CONTACT
+================================================================================
+
+Recruitment team: data.recruitment@dfta.gov.uk

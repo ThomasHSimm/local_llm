@@ -6,7 +6,8 @@ from typing import Iterator
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-DEFAULT_MODEL = "qwen2.5:7b"
+# DEFAULT_MODEL = "qwen2.5:7b"
+DEFAULT_MODEL = "llama3.2:3b" # "qwen2.5:3b"
 
 client = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
 

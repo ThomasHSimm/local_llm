@@ -1,0 +1,103 @@
+Sarah Chen
+sarah.chen@email.com | github.com/schen-ds | Leeds, UK
+
+================================================================================
+PROFILE
+================================================================================
+
+Data Scientist with 5 years of experience building analytical products in
+government and financial services. Strong Python programmer with a focus on
+reproducible pipelines, predictive modelling, and communicating findings to
+non-technical audiences. Currently leading data science work on road safety
+analytics at a regional transport authority.
+
+================================================================================
+EMPLOYMENT
+================================================================================
+
+Senior Data Analyst — West Yorkshire Combined Authority (Jan 2023 – Present)
+
+Working within a small data team to develop analytical tools supporting transport
+planning and road safety decisions across West Yorkshire.
+
+- Built a Python pipeline to process and clean GPS and incident data from multiple
+  local authority sources, reducing manual data preparation from 3 days to 2 hours.
+- Developed a road casualty risk model using gradient boosting (scikit-learn) that
+  identified high-risk corridors, used by the safety team to prioritise interventions.
+- Presented model findings to senior leadership and elected members, adapting
+  technical content for non-specialist audiences.
+- Set up the team's first version-controlled codebase on GitHub, introduced peer
+  review and basic unit testing with pytest.
+- Mentored two junior analysts in Python and data visualisation.
+
+Data Scientist — Lloyds Banking Group (Jun 2020 – Dec 2022)
+
+Working in the fraud analytics team building detection models for card payment fraud.
+
+- Developed and maintained a real-time transaction scoring model using XGBoost,
+  reducing false positive rates by 18% while maintaining detection performance.
+- Built feature engineering pipelines in PySpark on AWS EMR for processing 50M+
+  daily transactions.
+- Collaborated with engineers to deploy models via REST API using FastAPI and Docker
+  on AWS ECS.
+- Ran monthly model performance reviews and produced drift monitoring dashboards
+  in Plotly Dash.
+- Completed internal ethics review for two model deployments, documenting fairness
+  assessments and bias testing.
+
+Data Analyst — Office for National Statistics (Sep 2018 – May 2020)
+
+Working on the Labour Market Statistics team producing monthly economic publications.
+
+- Automated production of accessible Excel publications using Python, saving
+  approximately 40 hours of manual work per publication cycle.
+- Contributed to a PySpark pipeline for processing large-scale survey microdata
+  on the ONS Cloudera platform.
+- Wrote documentation and internal guidance on Python best practices adopted
+  across the team.
+
+================================================================================
+EDUCATION
+================================================================================
+
+MSc Data Science — University of Leeds (2017–2018)
+Dissertation: Predicting road casualty severity using ensemble methods and
+imbalanced learning techniques.
+
+BSc Mathematics — University of Sheffield (2014–2017)
+First Class Honours.
+
+================================================================================
+SKILLS
+================================================================================
+
+Languages:        Python (6 years), SQL, R (basic)
+ML & Analysis:    scikit-learn, XGBoost, LightGBM, statsmodels, pandas, NumPy
+Engineering:      PySpark, AWS (EMR, ECS, S3), Docker, Git/GitHub, pytest, FastAPI
+Visualisation:    Plotly Dash, matplotlib, seaborn
+Other:            Agile/Scrum, Jira, ethics frameworks (ONS, ICO), GDPR
+
+================================================================================
+NOTABLE PROJECTS
+================================================================================
+
+Road Safety Risk Model (West Yorkshire CA)
+Gradient boosting model identifying high-risk road segments from casualty,
+traffic flow and road geometry data. Used by safety planners to target
+infrastructure improvements. Presented at regional transport conference 2024.
+
+Fraud Detection Pipeline (Lloyds)
+End-to-end ML pipeline from feature engineering through to real-time scoring
+API. Handled 50M+ daily transactions on AWS infrastructure.
+
+Publication Automation (ONS)
+Python pipeline automating accessible spreadsheet production for monthly
+Labour Market Statistics releases.
+
+================================================================================
+OTHER
+================================================================================
+
+- Speaker at PyData Leeds 2024: "Reproducible pipelines for public sector data"
+- Volunteer data mentor, Code First Girls, Leeds chapter (2022–present)
+- AWS Certified Cloud Practitioner (2022)

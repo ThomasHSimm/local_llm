@@ -1,0 +1,77 @@
+# answers_example.toml
+# Example answers for fictional candidate Sarah Chen.
+# These are written to the questions generated on a representative run.
+# Your own questions will differ — this file is for demonstration only.
+#
+# In practice:
+#   1. Run with --questions-only to see your generated questions
+#   2. Copy this file to answers.toml and rewrite with your own answers
+#   3. Point your config at it via answers_file = "answers.toml"
+
+[answers]
+
+1 = """
+The clearest example is the road casualty risk model at West Yorkshire CA.
+The problem was that interventions were being prioritised on raw casualty counts,
+which unfairly favoured busy roads. I reframed it as risk per vehicle kilometre,
+built a gradient boosting model using scikit-learn incorporating road geometry,
+traffic flow and historical casualty data, and deployed it as a ranked corridor
+list the safety team now uses to prioritise infrastructure work. The model has
+directly influenced three infrastructure projects in the last 18 months.
+At Lloyds I deployed an XGBoost fraud scoring model into production via a FastAPI
+REST API on AWS ECS, processing real-time transactions at scale.
+"""
+
+2 = """
+At West Yorkshire CA I introduced version control on GitHub and peer review as
+the team had no existing practices. I set up a modular pipeline structure with
+clear separation between ingestion, processing and output, wrote docstrings and
+a README for each module, and added pytest unit tests covering the key
+transformation steps. The goal was that another analyst could pick it up without
+asking me. At ONS I also wrote internal guidance on Python best practices that
+was adopted across the team — reproducibility was a core principle given the
+published statistics context.
+"""
+
+3 = """
+At Lloyds I completed two internal ethics reviews for model deployments. This
+involved documenting the model's intended use, assessing potential for disparate
+impact across protected characteristics, running bias tests across demographic
+subgroups, and producing a fairness report reviewed by the risk team before
+sign-off. At ONS I worked within the National Statistician's Data Ethics
+framework — in practice this meant ensuring statistical disclosure control on
+published outputs and documenting methodology so results could be scrutinised.
+"""
+
+4 = """
+At Lloyds the fraud pipeline processed over 50 million daily transactions using
+PySpark on AWS EMR. The main challenges were handling late-arriving data,
+managing schema drift across upstream feeds, and keeping inference latency low
+enough for real-time scoring. I used windowing functions for time-series feature
+engineering and partitioned the data by date to keep individual job sizes
+manageable. At West Yorkshire CA I worked with GPS trace data from thousands of
+vehicles combined with road network geometry — joining spatial datasets required
+careful use of GeoPandas and spatial indexing to keep processing times reasonable.
+"""
+
+5 = """
+The most direct example is presenting the road safety model to elected members
+at West Yorkshire CA — people with no data science background who needed to
+understand why the model's priorities differed from their intuitions based on
+local knowledge. I focused entirely on outcomes rather than methodology:
+here are the corridors ranked by modelled risk, here is what happened at the
+top-ranked ones historically, here is what intervention would cost versus the
+estimated safety benefit. I avoided model internals entirely and used maps rather
+than charts wherever possible. The presentation led directly to two sites being
+added to the capital programme.
+"""
+
+6 = """
+I presented at PyData Leeds 2024 on reproducible pipelines for public sector
+data, which came out of the GitHub and testing practices I introduced at my
+team. I also volunteer as a data mentor with Code First Girls, running monthly
+sessions on Python and data science fundamentals for career changers. Within
+my current team I mentor two junior analysts — one has since led her first
+independent project. I also wrote internal Python best practice guidance at ONS
+that was shared across the analytics function.
+"""

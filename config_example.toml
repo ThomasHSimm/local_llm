@@ -1,0 +1,43 @@
+# job_assistant config file
+# Copy to config.toml, fill in your details, then run:
+#   python job_assistant/main.py --config config.toml --questions-only
+#   (fill in answers below)
+#   python job_assistant/main.py --config config.toml
+
+[inputs]
+# Path to job spec file (.txt, .pdf, .docx) OR paste text inline as a string
+job_spec = "inputs/job_spec.txt"
+
+# Path to CV file (.txt, .pdf, .docx) OR paste text inline as a string
+cv = "inputs/cv.txt"
+
+[settings]
+# LLM provider: "ollama" | "groq" | "anthropic" | "openai"
+# Use "ollama" to keep your CV private — nothing leaves your machine
+provider = "ollama"
+
+# Number of elicitation questions to generate
+n_questions = 6
+
+# Output directory for session files and drafts
+output_dir = "outputs"
+
+[answers]
+# Step 1: run with --questions-only to see the generated questions
+# Step 2: fill in your answers here, keyed by question number
+# Step 3: re-run without --questions-only to generate the draft
+#
+# 1 = "Your answer to question 1"
+# 2 = "Your answer to question 2"
+# 3 = "Your answer to question 3"
+# 4 = "Your answer to question 4"
+# 5 = "Your answer to question 5"
+# 6 = "Your answer to question 6"
+
+[refinements]
+# Optional: feedback strings applied to the draft in order after generation
+# Useful for iterating without re-running the full pipeline
+# Re-run with --resume outputs/session_xxx.json to apply new refinements
+#
+# 1 = "Strengthen the opening — make it more specific to the role"
+# 2 = "Trim 30 words from the second paragraph"

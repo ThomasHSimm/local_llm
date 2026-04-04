@@ -1,6 +1,36 @@
+# Logs
 logs/*.log
+
+# Python
 __pycache__/
-.vscode/
 *.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Environment
 .env
-config/config.local.yaml
+.env.*
+conda-env/
+
+# IDE
+.vscode/
+.idea/
+
+# App config and data — keep out of repo
+config/
+data/
+outputs/
+
+# Job assistant — personal data, never commit
+inputs/
+answers.toml
+session_*.json
+personal_statement_*.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

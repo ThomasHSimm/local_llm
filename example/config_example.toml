@@ -1,0 +1,18 @@
+# Example config — fictional candidate Sarah Chen applying to DfTA Senior DS role
+# Demonstrates the full pipeline. Run with:
+#   python job_assistant/main.py --config example/config_example.toml --questions-only
+#   python job_assistant/main.py --config example/config_example.toml
+
+[inputs]
+job_spec = "example/job_spec.txt"
+cv = "example/cv.txt"
+answers_file = "example/answers_example.toml"
+
+[settings]
+provider = "ollama"
+n_questions = 6
+output_dir = "example/outputs"
+
+[refinements]
+# Optional — feedback applied to the draft after generation
+# 1 = "Strengthen the opening paragraph"
